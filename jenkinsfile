@@ -2,16 +2,16 @@ node {
     
         stage ('Clone') {
               git url: 'https://github.com/JFrog/project-examples.git'
-              echo 'Code Checkout SUCCESS.'
+              echo 'Code Checkout SUCCESS'
         }
 
         stage('Build') {
-            echo 'Build SUCCESS.'
+            echo 'Build SUCCESS'
 
         }
         
-        state('Test'){
-           echo 'Test SUCCESS.'
+        stage('Test'){
+           echo 'Test SUCCESS'
 
         }
 
