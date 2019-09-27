@@ -14,7 +14,7 @@ node {
         
         stage('Test'){
            echo 'Test SUCCESS'
-           echo "The present workspace is : ${workspace}
+           echo "The present workspace is : ${workspace}"
 
         }
 
